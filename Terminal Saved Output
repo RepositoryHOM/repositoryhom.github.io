@@ -1,0 +1,1017 @@
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+Sys-MacBook-Pro:testsublime vale$ fa*
+-bash: fafa.py: command not found
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fa*
+180
+south
+3
+Sys-MacBook-Pro:testsublime vale$ python fakecompass
+python: can't open file 'fakecompass': [Errno 2] No such file or directory
+Sys-MacBook-Pro:testsublime vale$ python fakecompass.py
+180
+south
+yes, that's truth
+yes, it is not to the north
+Sys-MacBook-Pro:testsublime vale$ python fakecompass.py
+180
+south
+yes, that's truth
+yes, it is not to the north
+Sys-MacBook-Pro:testsublime vale$ cd/Users/vale/Desktop/saic/mixedrealityperformance/testsublime 
+-bash: cd/Users/vale/Desktop/saic/mixedrealityperformance/testsublime: No such file or directory
+Sys-MacBook-Pro:testsublime vale$ ls
+catchme.py			loop3.py
+fakecompass.py			loop4.py
+hello.py			loop5.py
+list.py				print "hello, null world"
+loop.py				test1.py
+loop2.py			variable.py
+Sys-MacBook-Pro:testsublime vale$ git clone https://github.com/sypapa/sypapa.github.io
+Cloning into 'sypapa.github.io'...
+warning: You appear to have cloned an empty repository.
+Sys-MacBook-Pro:testsublime vale$ cd /Users/vale/Desktop/saic/mixedrealityperformance/testsublime/sypapa.github.io 
+Sys-MacBook-Pro:sypapa.github.io vale$ ls
+01compass.css		01compass_flicker.js	index.html
+01compass_degrees.js	01compass_text.js	p5
+01compass_empty.js	ReadMe.txt
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Oh Yes"
+[master (root-commit) b215203] Oh Yes
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 20 files changed, 90055 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 01compass.css
+ create mode 100644 01compass_degrees.js
+ create mode 100644 01compass_empty.js
+ create mode 100644 01compass_flicker.js
+ create mode 100644 01compass_text.js
+ create mode 100644 ReadMe.txt
+ create mode 100644 index.html
+ create mode 100644 p5/.DS_Store
+ create mode 100644 p5/addons/.DS_Store
+ create mode 100644 p5/addons/p5.dom.js
+ create mode 100644 p5/addons/p5.dom.min.js
+ create mode 100644 p5/addons/p5.sound.js
+ create mode 100644 p5/addons/p5.sound.min.js
+ create mode 100644 p5/compass/index.html
+ create mode 100644 p5/compass/sketch.js
+ create mode 100644 p5/empty-example/index.html
+ create mode 100644 p5/empty-example/sketch.js
+ create mode 100644 p5/p5.js
+ create mode 100644 p5/p5.min.js
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Username for 'https://github.com': sypapa
+Password for 'https://sypapa@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/sypapa/sypapa.github.io/'
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Username for 'https://github.com': Sypapa
+Password for 'https://Sypapa@github.com': 
+Counting objects: 25, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 716.80 KiB | 5.16 MiB/s, done.
+Total 25 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/sypapa/sypapa.github.io
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master dc7a6d0] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 379 bytes | 379.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   b215203..dc7a6d0  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Sys-MacBook-Pro:sypapa.github.io vale$ ~$git commit -m "Initial commit"
+-bash: ~: command not found
+Sys-MacBook-Pro:sypapa.github.io vale$ ~$git commit -m "Oh Yes"
+-bash: ~: command not found
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 2eb40af] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 402 bytes | 402.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   dc7a6d0..2eb40af  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 2036f19] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 407 bytes | 407.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   2eb40af..2036f19  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master b432ebe] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   2036f19..b432ebe  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 648f4ca] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 309 bytes | 309.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   b432ebe..648f4ca  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 478312e] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   648f4ca..478312e  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+^[[A^[[ABranch master set up to track remote branch master from origin.
+Everything up-to-date
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 741f796] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   478312e..741f796  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 46a7f97] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   741f796..46a7f97  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 36c3637] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   46a7f97..36c3637  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master fc5ecaa] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   36c3637..fc5ecaa  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 30de0a4] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   fc5ecaa..30de0a4  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ cd /Users/vale/Desktop/saic/mixedrealityperformance/testsublime/sypapa.github.io 
+Sys-MacBook-Pro:sypapa.github.io vale$ ls
+01compass.css		01compass_flicker.js	index.html
+01compass_degrees.js	01compass_text.js	p5
+01compass_empty.js	ReadMe.txt
+Sys-MacBook-Pro:sypapa.github.io vale$ java 01compass_empty.js
+No Java runtime present, requesting install.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 46ae6c2] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   30de0a4..46ae6c2  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master aa5add5] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   46ae6c2..aa5add5  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 9a3ac1f] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   aa5add5..9a3ac1f  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 13c90aa] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   9a3ac1f..13c90aa  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master b921c39] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   13c90aa..b921c39  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master d838c98] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   b921c39..d838c98  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master c78c5a4] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   d838c98..c78c5a4  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 07ed02d] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   c78c5a4..07ed02d  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 38a056a] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   07ed02d..38a056a  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 2295af2] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   38a056a..2295af2  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master c3422c6] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+^[[A^[[ATo https://github.com/sypapa/sypapa.github.io
+   2295af2..c3422c6  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master c98f4bd] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   c3422c6..c98f4bd  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master e4d60bb] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   c98f4bd..e4d60bb  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 48238f3] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   e4d60bb..48238f3  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 01b901c] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   48238f3..01b901c  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 7e8bbb9] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   01b901c..7e8bbb9  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master ac5d2b3] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   7e8bbb9..ac5d2b3  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 6cd0014] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   ac5d2b3..6cd0014  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 65de952] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   6cd0014..65de952  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
+Sys-MacBook-Pro:sypapa.github.io vale$ git commit -m "Initial commit"
+[master 17e0548] Initial commit
+ Committer: Sy Suo <vale@Sys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Sys-MacBook-Pro:sypapa.github.io vale$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sypapa/sypapa.github.io
+   65de952..17e0548  master -> master
+Branch master set up to track remote branch master from origin.
+Sys-MacBook-Pro:sypapa.github.io vale$ git add --all
